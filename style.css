@@ -1,0 +1,220 @@
+
+/* Palette colori */
+:root {
+   --color1: darkred;
+   --color2: #C67F7F;
+   --color3:  #ececec;
+}
+
+* {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+
+/* Logo */
+#logo-image {
+    height: 60px;
+}
+
+/* Immagine di sfondo */
+#bg-image {
+    background-image:linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.1)), url('./media/switzerland-862870_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50rem;
+}
+
+#wrapper-title {
+    position: relative;
+}
+
+#title-font {
+    font-family: 'Nova Square', cursive;
+    position: absolute;
+    bottom: 0;
+    font-size: 70px;
+    letter-spacing: 40px;
+    color: var(--color1);
+}
+
+#wrapper-img {
+    position: relative;
+}
+
+#img-m {
+    height: 600px;
+    width: 1500px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.icon {
+    font-weight: bold;
+    color: rgba(91, 85, 85, 0.769);
+    font-style: italic;
+}
+
+.icon::after {
+    content: "\f10e";
+    font: var(--fa-font-solid);
+    color: darkred;
+    margin-left: 5px;
+}
+
+.icon::before {
+    content: "\f10d";
+    font: var(--fa-font-solid);
+    color: darkred;
+    margin-right: 5px;
+    
+}
+
+#bg-contain {
+    background-color: var(--color3);
+}    
+
+#bg-section-i {
+    background-color: var(--color3);
+    height: 20rem;
+
+}
+
+.f-color {
+    color: var(--color1);
+}
+
+.bord {
+ 
+    width: 200px;
+    border-bottom: 3px solid darkred;
+    position: relative;
+}
+
+.pallino {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid darkred;
+    position: absolute;
+    bottom: -8px;
+    left: 95px;
+}
+
+.subTitle {
+    font-family: 'Nova Square', cursive;
+    color: var(--color1);
+}
+
+.parArt {
+    color: rgba(91, 85, 85, 0.769); 
+}
+
+#bg-Article {
+    background-color: var(--color3);
+}
+
+.btLor {
+    padding: 3px 30px;
+    background-color: var(--color1);
+    color: white;
+    font-weight: 600;
+}
+
+#wrapper-button {
+    height: 30rem;
+    background-color: var(--color3);
+}
+
+#bg-button {
+    background-image: url('./media/trees2.png');
+}
+
+.wrapper-lor {
+   border-left: 3px solid darkred;
+   position: relative;
+}
+
+.pallino2 {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid darkred;
+    position: absolute;
+    left: -7px;
+}
+
+.b-end {
+    background-image: url('./media/single.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: bottom 0px right 100px;
+    height: 40rem;
+}
+
+.img-Team {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.imT-w {
+    border: 3px solid darkred;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+}
+
+.text-font {
+    font-style: italic;
+}
+
+#Team-wrapper {
+    background-color: var(--color3);
+    padding: 100px;
+}
+
+.end-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.wrap-img {
+    height: 215px;
+    width: 215px;
+    border-radius: 50%;
+    border: 3px solid darkred;
+}
+
+.end-subTitle {
+    color: darkred;
+}
+
+.img-size {
+    width: 100%;
+}
+
+.bg-end {
+    background-color: var(--color3);
+}
+
+#end-container {
+    padding: 100px;
+    background-color: darkred;
+}
+
+.li-font {
+    font-weight: normal;
+}
+
+.p-font {
+    font-weight: normal;
+}
+
+#subend {
+    font-family: 'Nova Square', cursive;
+}
